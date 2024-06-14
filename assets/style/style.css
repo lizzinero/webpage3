@@ -3,22 +3,26 @@
     src: url(/assets/font/CormorantGaramond-Regular.ttf);
 }
 .header {
-    display: grid;
-    height: 150px;
+    width: 100vw;
+    height: 15vh;
+    min-width: 450px;
     background-color: #163550;
 }
 .title {
+    margin: auto;
     font-family: "Cormorant Garamond";
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
+    font-size: 3em;
     text-align: center;
     color: white;
 }
 .main {
     display: grid;
-    grid-template-columns: 1fr 400px;
-    height: calc(100vh - 300px);
+    grid-template-columns: 1fr 20%;
+    width: 100vw;
+    height: 70vh;
+    min-width: 450px;
     background-color: #f096ad;
 }
 .div {
@@ -28,10 +32,11 @@
 }
 .title_main {
     grid-column: 1 / 3;
+    margin: auto;
     font-family: "Cormorant Garamond";
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
+    font-size: 3em;
     text-align: center;
     color: white;
 }
@@ -55,7 +60,7 @@
     font-family: "Cormorant Garamond";
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
+    font-size: 1.8em;
     text-align: center;
 }
 .aside {
@@ -65,7 +70,8 @@
 .footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    height: 150px;
+    /* width: 100%; */
+    height: 15vh;
     background-color: white;
 }
 .section_footer {
